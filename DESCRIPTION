@@ -1,0 +1,17 @@
+Package: drstable
+Title: Analyse Dimension Reduction Stability
+Version: 0.1.0
+Authors@R: 
+    person("Ben", "Abrahams", , "ben.abrahams.de@gmail.com", role = c("aut", "cre"))
+Description: Creates a set of n embeddings using either BH t-SNE or UMAP. The set of embeddings can then be compared to determine the mean Kendall's Tau between all embeddings, representing the stability of the dimension reduction technique on the input dataset.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: future, future.apply, pcaPP, Rtsne, uwot, vegan
+URL: https://github.com/Gnotic/drstable
+BugReports: https://github.com/Gnotic/drstable/issues
+NeedsCompilation: no
+Packaged: 2025-05-07 14:19:43 UTC; ben
+Author: Ben Abrahams [aut, cre]
+Maintainer: Ben Abrahams <ben.abrahams.de@gmail.com>
